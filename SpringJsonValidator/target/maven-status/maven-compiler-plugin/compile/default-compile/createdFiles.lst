@@ -1,0 +1,15 @@
+com\spring\hibernate\dao\JsonValidatorDAO.class
+com\spring\hibernate\model\ListofRules.class
+com\spring\hibernate\service\JsonValidatorServiceImpl.class
+com\spring\hibernate\dao\AbstractDao.class
+com\spring\hibernate\model\Rule.class
+com\spring\hibernate\service\JsonValidatorService.class
+com\spring\hibernate\config\SpringConfig.class
+com\spring\hibernate\dao\JsonValidatorDAOImpl.class
+com\spring\hibernate\config\HibernateConfig.class
+com\spring\hibernate\config\AppInitializer.class
+com\spring\hibernate\exception\JsonValidatorException.class
+com\spring\hibernate\model\Choice.class
+com\spring\hibernate\controller\ValidatorController.class
+com\spring\hibernate\exception\JsonValidatorExceptionHandler.class
+com\spring\hibernate\model\Response.class
