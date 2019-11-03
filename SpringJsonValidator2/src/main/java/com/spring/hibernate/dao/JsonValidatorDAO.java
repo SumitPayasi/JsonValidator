@@ -11,4 +11,6 @@ public interface JsonValidatorDAO {
 	List<Rule> retrivefromDb();
 	/* void deleteAll(); */
 
+	void saveRule(Rule rule, String formName);
+
 }

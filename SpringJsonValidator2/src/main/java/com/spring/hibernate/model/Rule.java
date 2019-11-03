@@ -26,20 +26,16 @@ public class Rule {
 	private int level;
 	private String rule;
 	private String fieldName;
-	@OneToMany(fetch = FetchType.EAGER,cascade= CascadeType.ALL)
-	@JoinColumn(name="Rule_id")
+	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@JoinColumn(name = "Rule_id")
 	@JsonInclude(JsonInclude.Include.NON_EMPTY)
 	private List<ListofRules> allRule;
 	private String nodePath;
-	
-	
-	/*
-	 * @OneToOne(cascade= {CascadeType.ALL}) private FinancialYear fy;
-	 * 
-	 * public FinancialYear getFy() { return fy; }
-	 * 
-	 * public void setFy(FinancialYear fy) { this.fy = fy; }
-	 */
+	private String formName;
+
+	public void setFormName(String formName) {
+		this.formName = formName;
+	}
 
 	public String getNodePath() {
 		return nodePath;
@@ -102,5 +98,5 @@ public class Rule {
 		return "Rule [id=" + id + ", parentId=" + parentId + ", level=" + level + ", rule=" + rule + ", fieldName="
 				+ fieldName + ", allRule=" + allRule + "]";
 	}
-	
+
 }

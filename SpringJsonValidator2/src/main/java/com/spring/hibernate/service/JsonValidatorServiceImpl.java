@@ -35,11 +35,9 @@ public class JsonValidatorServiceImpl implements JsonValidatorService {
 	}
 
 	
-	/*
-	 * public void deleteAll() {
-	 * 
-	 * jsonValidatorDAO.deleteAll(); }
-	 */
+	public void saveRule(Rule rule, String formName) {
+		jsonValidatorDAO.saveRule(rule,formName);
+	}
 	 
 
 	@Override

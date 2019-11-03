@@ -13,3 +13,5 @@ com\spring\hibernate\model\Choice.class
 com\spring\hibernate\controller\ValidatorController.class
 com\spring\hibernate\exception\JsonValidatorExceptionHandler.class
 com\spring\hibernate\model\Response.class
+com\spring\hibernate\model\ReadFile.class
+com\spring\hibernate\model\JsonDataUtility.class

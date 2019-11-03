@@ -32,6 +32,11 @@ public class JsonValidatorDAOImpl extends AbstractDao<Integer, Rule> implements 
 		getSession().saveOrUpdate(rule);
 		Log.info("Rules have been saved");
 	}
+	
+	public void saveRule(Rule rule, String formName) {
+		rule.setFormName(formName);
+		getSession().saveOrUpdate(rule);
+	}
 
 	/**
 	* 

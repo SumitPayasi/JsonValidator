@@ -10,4 +10,6 @@ public interface JsonValidatorService {
 
 	List<Rule> retrivefromDb();
 
+	void saveRule(Rule rule, String formName);
+
 }
